@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+
+header {
+    margin: 10px;
+}
+
+.registration {
+    border: 1.5px solid black; 
+    width: fit-content;
+    padding: 10px; 
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+}

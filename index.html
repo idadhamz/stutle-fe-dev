@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 3 - Import Font</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="container">
+          <a href="/index.html">
+            <p>Biodata</p>
+          </a>
+          <!-- Relative URL -->
+          <ul>
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="./blogs.html">Blogs</a>
+            </li>
+            <li>
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN -->
+    <main>
+      <!-- SECTION FORM -->
+      <section class="registration">
+        <h1>Registrasi Mahasiswa</h1>
+        <form>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Siswa"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="nama">Nama</label>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Nama Siswa"
+              required
+            />
+          </div>
+          <br />
+          <div>
+            <label for="tgl_lahir">Tanggal Lahir</label>
+            <input type="date" id="tgl_lahir" name="tgl_lahir" />
+          </div>
+          <br />
+          <div>
+            <label>Gender</label>
+            <select name="gender" id="gender">
+              <option value="L">Laki-Laki</option>
+              <option value="P">Perempuan</option>
+            </select>
+          </div>
+          <br />
+          <div>
+            <h3>Ekstrakulikuler</h3>
+            <input
+              type="checkbox"
+              id="futsal"
+              name="ekstrakulikuler"
+              value="futsal"
+            />
+            <label for="futsal">Futsal</label>
+            <br />
+            <input
+              type="checkbox"
+              id="badminton"
+              name="ekstrakulikuler"
+              value="badminton"
+            />
+            <label for="badminton">Badminton</label>
+            <br />
+            <input
+              type="checkbox"
+              id="basket"
+              name="ekstrakulikuler"
+              value="basket"
+            />
+            <label for="basket">Basket</label>
+          </div>
+          <br />
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <br />
+          <div>
+            <label for="validasi_password">Validasi Password</label>
+            <input
+              type="password"
+              id="validasi_password"
+              name="validasi_password"
+              required
+            />
+          </div>
+          <br />
+          <input type="submit" id="submit" name="submit" value="Submit" />
+        </form>
+      </section>
+      <!-- END OF SECTION BIODATA -->
+    </main>
+    <!-- END OF MAIN -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        Copyright @ 2021
+        <!-- Absolute URL -->
+        <a
+          href="http://idadilham.site/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><strong>Dadi Ilham S</strong></a
+        >
+      </p>
+    </footer>
+    <!-- END OF FOOTER -->
+  </body>
+</html>
