@@ -1,0 +1,45 @@
+.form_todo {
+    background-color: antiquewhite;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+
+    width: 100%;
+    height: auto;
+}
+
+.form_todo__div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.form_todo__input {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.form_todo__submit {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    font-size: 1rem;
+
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+
+    cursor: pointer;
+}
+
+.form_todo__submit:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .form_todo {
+        width: 300px;
+    }
+}
