@@ -6,3 +6,36 @@
   width: 100%;
   height: auto;
 }
+
+.list_todo h1 {
+  margin-bottom: 1rem;
+}
+
+.list_todo_item {
+  padding: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list_todo_item_text__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.list_todo_item_btn_group {
+  display: flex;
+  gap: 5px;
+}
+
+.list_todo_item_btn_group__btn {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
